@@ -95,6 +95,7 @@ Function Get-SchTasks {
         }
     }
     end {
+        # Commented out because cleaning this up was causing problems
         # [System.Runtime.Interopservices.Marshal]::ReleaseComObject($ScheduleCom) | Out-Null
     }
 }
